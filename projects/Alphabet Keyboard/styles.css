@@ -29,8 +29,9 @@ h1 {
   background-color: #0C0B0C;
 }
 
-.a {
+.a:hover {
   background-image: url("images/apple.png");
+  transform: scale(1.05)
 }
 
 .b {
