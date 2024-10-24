@@ -2,8 +2,6 @@ body{
   background-color: #0C0B0C;
 }
 
-/* #0C0B0C */
-
 h1 {
   font-family: Serif;
   font-size: 4rem;
@@ -19,7 +17,6 @@ h1 {
   line-height: 2;
   font-weight: 900;
   color: #FEE6ED;
-  /*text-shadow: 3px 0 #DBEDF3;*/
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -27,109 +24,85 @@ h1 {
   text-align: center;
   margin: 10px;
   background-color: #0C0B0C;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.a:hover {
+.btn:hover {
+  transform: scale(1.1); /* Enlarge button slightly */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5); /* Add shadow on hover */
+  border-color: #fff; /* Change border color */
+}
+
+.a {
   background-image: url("images/apple.png");
-  transform: scale(1.05)
+}
+.a:hover {
+  background-color: #f5c6cb; /* Add a subtle background color change */
 }
 
 .b {
   background-image: url("images/ball.png");
 }
+.b:hover {
+  background-color: #f8d7da;
+}
 
 .c {
   background-image: url("images/cat.png");
+}
+.c:hover {
+  background-color: #e2e3e5;
 }
 
 .d {
   background-image: url("images/dog.png");
 }
+.d:hover {
+  background-color: #ffeeba;
+}
 
 .e {
   background-image: url("images/elephant.png");
 }
+.e:hover {
+  background-color: #c3e6cb;
+}
+
+/* Add similar hover effects for other letters */
 
 .f {
   background-image: url("images/fish.png");
+}
+.f:hover {
+  background-color: #cce5ff;
 }
 
 .g {
   background-image: url("images/grass.png");
 }
+.g:hover {
+  background-color: #d4edda;
+}
 
 .h {
   background-image: url("images/hat.png");
+}
+.h:hover {
+  background-color: #d1ecf1;
 }
 
 .i {
   background-image: url("images/insect.png");
 }
+.i:hover {
+  background-color: #fff3cd;
+}
 
 .j {
   background-image: url("images/jar.png");
 }
-
-.k {
-  background-image: url("images/kite.png");
-}
-
-.l {
-  background-image: url("images/lamp.png");
-}
-
-.m {
-  background-image: url("images/monkey.png");
-}
-
-.n {
-  background-image: url("images/nose.png");
-}
-
-.o {
-  background-image: url("images/ocean.png");
-}
-
-.p {
-  background-image: url("images/parrot.png");
-}
-
-.q {
-  background-image: url("images/queen.png");
-}
-
-.r {
-  background-image: url("images/rat.png");
-}
-
-.s {
-  background-image: url("images/sun.png");
-}
-
-.t {
-  background-image: url("images/tap.png");
-}
-
-.u {
-  background-image: url("images/umbrella.png");
-}
-
-.v {
-  background-image: url("images/violin.png");
-}
-
-.w {
-  background-image: url("images/water.png");
-}
-
-.x {
-  background-image: url("images/fox.png");
-}
-
-.y {
-  background-image: url("images/yellow.png");
-}
-
-.z {
-  background-image: url("images/zebra.png");
+.j:hover {
+  background-color: #f5c6cb;
 }
